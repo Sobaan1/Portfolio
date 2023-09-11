@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+   
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init('3PYQjSrQfw2o4Rsul');
+    })();
+
+</script>
+    <!-- ... HTML code ... -->
+
+<!-- Add this script tag before the closing </body> tag -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header">
+        <a href="" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Resume</a>
+            <a href="#contact">Contact</a>
+            <!-- <a href="#">About</a> -->
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey, It's Me</h3>
+            <h1>Mohammad Sobaan</h1>
+            <h3>And I'm a <span>Computer Science Engineer</span></h3>
+            <p>From Haldia Institute of Technology</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/mohammad-sobaan-715801219/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Sobaan1?tab=repositories" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="mailto:mohammadsobaan998@gmail.com" target="_blank"><i class='bx bxl-gmail'></i></a>
+                <!-- <a href=""></a> -->
+            </div>
+            <a href="https://docs.google.com/document/d/1n_wp6iWedSZaAF5Ws9bXehHAlt82hl4YZ3_fTItk22w/edit" target="_blank" class="btn">Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="img/bg.png" alt="" srcset="">
+        </div>
+    </section>
+
+
+
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/About.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Enthusuastic learner</h3>
+            <p class="first-content">"Hello, I'm Mohammad Sobaan, an enthusiastic and ambitious software developer and coder. 
+                I am a final year student, persuing my graduation from Haldia Institute of Technology in Computer Science Engineering, with a strong foundation in programming concepts and a passion for
+                building innovative solutions, I am eager to kick-start my career as a software developer.
+
+                During my academic journey, I gained proficiency in programming languages such as C++. I enjoy problem-solving and take pride in writing clean, efficient code that meets industry standards.
+
+                Beyond technical skills, I am a quick learner and have a strong analytical mindset. I possess
+                excellent attention to detail, allowing me to identify and troubleshoot issues efficiently. I am a
+                self-motivated individual who thrives in challenging environments, always seeking opportunities for
+                growth and improvement.
+
+               I am eager to expand my knowledge and stay up to date with emerging technologies in the software
+                development field. I am open to learning new languages, frameworks, and tools to enhance my skill set
+                and contribute to cutting-edge projects.</p>
+
+            <!-- <div class="second-content">
+
+                <p>Beyond technical skills, I am a quick learner and have a strong analytical mindset. I possess
+                    excellent attention to detail, allowing me to identify and troubleshoot issues efficiently. I am a
+                    self-motivated individual who thrives in challenging environments, always seeking opportunities for
+                    growth and improvement.
+
+                    I am excited to embark on my professional journey and contribute to impactful software development
+                    projects. I am seeking an opportunity to work with a dynamic team where I can apply my skills, learn
+                    from experienced professionals, and make a positive impact. I am confident that my dedication,
+                    passion, and willingness to learn will make me a valuable asset to any software development team.
+
+                    If you're looking for a talented and motivated software developer, I would be delighted to discuss
+                    how my skills align with your organization's goals. Let's connect and explore how we can create
+                    remarkable software solutions together!"
+
+                    Feel free to personalize this bio by including specific projects, technologies, or experiences you
+                    have gained during your studies. Good luck with your career as a software developer!</p>
+            </div> -->
+            <a href="" class="btn read-more">Read More</a>
+        </div>
+    </section>
+
+
+
+
+    <!-- service section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>C++</h3>
+                <p>I am familiar will C++ and OOPs concepts
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+
+
+
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Frontend development
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+
+
+
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>SQL</h3>
+                <p>I have theoretical as well as practical knowledge of SQL
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me?</span></h2>
+    
+        <form id="contact-form">
+            <div class="input-box">
+                <input id="fullName" type="text" name="name" placeholder="Full Name">
+                <input id="email" type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input id="number" type="number" name="number" placeholder="Mobile Number">
+                <input id="subject" type="text" name="subject" placeholder="Email Subject">
+            </div>
+            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn submit" onclick="sendMail(event)">
+        </form>
+    </section>
+
+
+    
+
+    <footer>
+        <p>&copy; 2023 &nbsp; MOHAMMAD SOBAAN. &nbsp; All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
